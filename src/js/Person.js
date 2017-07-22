@@ -8,7 +8,11 @@ class Person {
     }
 
     basicInfo() {
-        return `${this.name.first} ${this.name.last} - ${this.age}`;
+        return `${this.fullName()} - ${this.age}`;
+    }
+
+    fullName() {
+        return `${this.name.first} ${this.name.last}`;
     }
 }
 
