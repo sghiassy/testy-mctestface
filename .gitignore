@@ -39,3 +39,7 @@ npm-debug.log
 /captures
 .externalNativeBuild
 
+#### Selenium
+selenium-debug.log
+test/reports/*
+test/screenshots/*

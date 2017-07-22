@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
     const age = req.query.age;
     const person = new Person(firstName, lastName, age);
 
-    fs.readFile('./index.ejs', 'UTF-8', (err, file) => {
+    fs.readFile('./src/ejs/index.ejs', 'UTF-8', (err, file) => {
         const template = ejs.compile(file);
         const output = template({user:{basicInfo:person.basicInfo()}});
         res.send(output);
