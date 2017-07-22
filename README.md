@@ -9,7 +9,10 @@ Features include
 - ESLint
 - Mocha / Chai Unit Tests
 - Sinon
+- ENV2
 - CircleCI Integration
+- Nightwatch UI Tests
+- Husky Git Hooks
 
 TODO
 - CircleCI Workflows
@@ -18,5 +21,8 @@ TODO
 - Vagrant
 - AWS Provision
 - Performance Testing
-- Nightwatch UI Tests
 - DayWatch CSS Test
+- Logging via Winston
+- Perofmrance Metrics via something
+- Looading testing via something
+- Webpack / Flow
