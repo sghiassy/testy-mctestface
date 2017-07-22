@@ -8,6 +8,7 @@ Features include
 - JSHint
 - ESLint
 - Mocha / Chai Unit Tests
+- Sinon
 - CircleCI Integration
 
 TODO
